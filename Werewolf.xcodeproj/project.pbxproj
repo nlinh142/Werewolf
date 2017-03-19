@@ -15,6 +15,7 @@
 		EB12BCEF1DC660DB00DCD567 /* SetupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB12BCEE1DC660DB00DCD567 /* SetupTableViewController.swift */; };
 		EB12BCF11DC6610100DCD567 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB12BCF01DC6610100DCD567 /* GameViewController.swift */; };
 		EB3F637E1DC6A2FD005B975C /* NewGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3F637D1DC6A2FD005B975C /* NewGameViewController.swift */; };
+		EB439E881E7F007300337744 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB439E871E7F007300337744 /* Status.swift */; };
 		EBD151101DC66C6F00589791 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD1510F1DC66C6F00589791 /* Player.swift */; };
 		EBD151121DC66CA000589791 /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD151111DC66CA000589791 /* Role.swift */; };
 		EBD151141DC66CBE00589791 /* Voice.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD151131DC66CBE00589791 /* Voice.swift */; };
@@ -34,6 +35,7 @@
 		EB12BCEE1DC660DB00DCD567 /* SetupTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SetupTableViewController.swift; path = Controllers/Setup/SetupTableViewController.swift; sourceTree = "<group>"; };
 		EB12BCF01DC6610100DCD567 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = Controllers/Game/GameViewController.swift; sourceTree = "<group>"; };
 		EB3F637D1DC6A2FD005B975C /* NewGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewGameViewController.swift; path = Controllers/Game/NewGameViewController.swift; sourceTree = "<group>"; };
+		EB439E871E7F007300337744 /* Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Status.swift; path = Models/Status.swift; sourceTree = "<group>"; };
 		EBD1510F1DC66C6F00589791 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = Models/Player.swift; sourceTree = "<group>"; };
 		EBD151111DC66CA000589791 /* Role.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Role.swift; path = Models/Role.swift; sourceTree = "<group>"; };
 		EBD151131DC66CBE00589791 /* Voice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Voice.swift; path = Models/Voice.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				EBD151111DC66CA000589791 /* Role.swift */,
 				EBD151131DC66CBE00589791 /* Voice.swift */,
 				EBD151151DC66CDA00589791 /* Game.swift */,
+				EB439E871E7F007300337744 /* Status.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				EBD151101DC66C6F00589791 /* Player.swift in Sources */,
 				EB12BCC91DC6046F00DCD567 /* AppDelegate.swift in Sources */,
 				EB3F637E1DC6A2FD005B975C /* NewGameViewController.swift in Sources */,
+				EB439E881E7F007300337744 /* Status.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
